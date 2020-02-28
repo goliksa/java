@@ -1,3 +1,5 @@
+package first;
+
 public class MyFirstProgram {
 
   public static void main(String[] args) {
@@ -31,5 +33,7 @@ public class MyFirstProgram {
     System.out.println("Пдощадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
     System.out.println("Пдощадь прямоугольника со сторонами " + r2.a + " и " + r2.b + " = " + r2.area());
   }
+
+
 
 }

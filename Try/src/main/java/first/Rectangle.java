@@ -1,3 +1,5 @@
+package first;
+
 public class Rectangle {
   public double  a;
   public double b;
