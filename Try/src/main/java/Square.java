@@ -1,5 +1,3 @@
-package first;
-
 public class Square {
 
   double l; // поле
