@@ -1,5 +1,3 @@
-package first;
-
 public class MyFirstProgram {
 
   public static void main(String[] args) {
@@ -11,6 +9,7 @@ public class MyFirstProgram {
     System.out.println();
 
     printAreas();
+    printDistanse();
   }
 
   public static void print(String name) {
@@ -34,6 +33,11 @@ public class MyFirstProgram {
     System.out.println("Пдощадь прямоугольника со сторонами " + r2.a + " и " + r2.b + " = " + r2.area());
   }
 
+  public static void printDistanse() {
 
+    Point one = new Point(-1, 2);
+    Point two = new Point(5, 5);
 
+    System.out.println("Расстояние между точками А(" + one.x + ", " + one.y + ") и Б(" + two.x + ", " + two.y + ") = " + one.distance(two));
+  }
 }
