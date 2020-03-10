@@ -35,7 +35,7 @@ public class MyFirstProgram {
 
   public static void printDistanse() {
 
-    Point one = new Point(-1, 2);
+    Point one = new Point(2, 2);
     Point two = new Point(5, 5);
 
     System.out.println("Расстояние между точками А(" + one.x + ", " + one.y + ") и Б(" + two.x + ", " + two.y + ") = " + one.distance(two));
